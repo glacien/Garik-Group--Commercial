@@ -1,0 +1,41 @@
+.container {
+  padding-bottom: 15rem;
+}
+
+.container :global(h2) {
+  transform: translateY(20rem);
+  opacity: 0;
+  transition: all 0.5s;
+}
+.container .content {
+  transform: translateY(20rem);
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.container:global(.active) :global(h2) {
+  transform: translateY(0);
+  opacity: 100%;
+}
+.container:global(.active) .content {
+  transform: translateY(0);
+  opacity: 100%;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.h2 {
+  text-align: center;
+}
+
+@media (max-width: 64em) {
+  .content {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 4.8rem;
+  }
+}

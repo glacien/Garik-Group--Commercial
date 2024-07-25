@@ -1,0 +1,91 @@
+.featureBoxText {
+  display: block;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.4s;
+  padding-top: 0;
+  max-width: 80%;
+  font-weight: 500;
+}
+
+.featureBox:global(.active) .featureBoxText {
+  max-height: 25rem;
+  padding-top: 1.6rem;
+}
+
+.featureBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.featureBoxSpan:global(.hover) {
+  color: var(--color-text-black--3);
+}
+
+.featureBoxSpan {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.4rem;
+  font-weight: 500;
+  gap: 1.6rem;
+  height: 6.4rem;
+  transition: all 0.4s;
+  text-align: center;
+}
+
+@media (max-width: 94em) {
+  .featureBox:global(.active) .featureBoxText {
+    max-height: 28rem;
+  }
+}
+
+@media (max-width: 88em) {
+  .featureBox:global(.active) .featureBoxText {
+    max-height: 31rem;
+  }
+}
+
+@media (max-width: 64em) {
+  .featureBox:global(.active) .featureBoxText {
+    max-height: 25rem;
+  }
+}
+
+@media (max-width: 43em) {
+  .featureBox:global(.active) .featureBoxText {
+    max-height: 28rem;
+  }
+}
+
+@media (max-width: 35em) {
+  .featureBox:global(.active) .featureBoxText {
+    max-height: 31rem;
+  }
+}
+
+@media (max-width: 32em) {
+  .featureBox:global(.active) .featureBoxText {
+    max-height: 34rem;
+  }
+}
+
+@media (max-width: 25em) {
+  .featureBox:global(.active) .featureBoxText {
+    max-height: 37rem;
+  }
+}
+
+@media (max-width: 24em) {
+  .featureBox:global(.active) .featureBoxText {
+    max-height: 40rem;
+  }
+}
+
+@media (max-width: 18em) {
+  .featureBox:global(.active) .featureBoxText {
+    max-height: 50rem;
+  }
+}

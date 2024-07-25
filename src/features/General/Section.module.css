@@ -1,0 +1,15 @@
+.container {
+  padding: 20rem 6.4rem 0;
+}
+
+@media (max-width: 40em) {
+  .container {
+    padding: 20rem 4.8rem 0;
+  }
+}
+
+@media (max-width: 23em) {
+  .container {
+    padding: 20rem 3.2rem 0;
+  }
+}

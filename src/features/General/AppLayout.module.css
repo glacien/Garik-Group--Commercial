@@ -1,0 +1,7 @@
+.parallax {
+  perspective: 1000px;
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  transform-style: preserve-3d;
+}
