@@ -1,8 +1,9 @@
-# React + Vite
+## Garik Group Commercial
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+#### https://garik-group-commercial.web.app/
 
-Currently, two official plugins are available:
+Garik Group Commercial is building company landing page that i wrote completely on my own
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+There is still a lot to add, rewrite and optimize. But for now, this is what I have enough inspiration for
+
+###### Customer still hasn't decided which site he will use for which company and which one to launch first, that's why I have two different, not yet finished sites on my GitHub, that both called Garik Group
